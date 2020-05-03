@@ -48,12 +48,36 @@ while True:
                   'THREE': result[0][3],
                   'FOUR': result[0][4],
                   'FIVE': result[0][5]}
-                  'FIVE': result[0][5]}
-                  'FIVE': result[0][5]}
-                  'FIVE': result[0][5]}
-                  'FIVE': result[0][5]}
-                  'FIVE': result[0][5]}
-                  'FIVE': result[0][5]}
+                  'SIX': result[0][6]}
+                  'SEVEN': result[0][7]}
+                  'EIGHT': result[0][8]}
+                  'NINE': result[0][9]}
+                  'A': result[0][A1]}
+                  'B': result[0][B1]}
+                  'C': result[0][C1]}
+                  'D': result[0][D1]}
+                  'E': result[0][E1]}
+                  'F': result[0][F1]}
+                  'G': result[0][G1]}
+                  'H': result[0][H1]}
+                  'I': result[0][I1]}
+                  'J': result[0][J1]}
+                  'K': result[0][K1]}
+                  'L': result[0][L1]}
+                  'M': result[0][M1]}
+                  'N': result[0][N1]}
+                  'O': result[0][O1]}
+                  'P': result[0][P1]}
+                  'Q': result[0][Q1]}
+                  'R': result[0][R1]}
+                  'S': result[0][S1]}
+                  'T': result[0][T1]}
+                  'U': result[0][U1]}
+                  'V': result[0][V1]}
+                  'W': result[0][W1]}
+                  'X': result[0][X1]}
+                  'Y': result[0][Y1]}
+                  'Z': result[0][Z1]}
 
     # Sorting based on top prediction
     prediction = sorted(prediction.items(), key=operator.itemgetter(1), reverse=True)
