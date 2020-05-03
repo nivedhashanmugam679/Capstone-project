@@ -56,7 +56,7 @@ test_set = test_datagen.flow_from_directory('data/test',
 classifier.fit_generator(
         training_set,
         steps_per_epoch=2000, # No of images in training set
-        epochs=10,
+        epochs=20,
         validation_data=test_set,
         validation_steps=2000)# No of images in test set
 
